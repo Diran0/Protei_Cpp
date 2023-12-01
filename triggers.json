@@ -1,0 +1,5 @@
+{
+"abonents": [
+{ "id": "0", "subscriber1_id":"+89876543210", "subscriber2_id": "1", "distance": 100 }
+],
+"zone": [{"id": "0", "subscriber_id":"+89876543210", "zone_id" : 0, "event": "in"},{"id": "1", "subscriber_id":"1", "zone_id" : 1, "event": "inout"}]}

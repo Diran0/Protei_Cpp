@@ -1,0 +1,10 @@
+{
+"zones": [
+{ "id": 0, "name": "spb", "x" : 10, "y": 400, "radius": 20 },
+{ "id": 1, "name": "msk", "x" : 30, "y": 40, "radius": 10 },
+{ "id": 2, "name": "rus", "x" : 300, "y": 0, "radius": 1000 }
+],
+"log_level" : "trace",
+"redis": { "ip": "127.0.0.1", "port": 6379 },
+"grpc": { "local_ip":"127.0.0.1", "local_port": 80}
+}
