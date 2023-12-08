@@ -3,23 +3,6 @@
 #include </usr/include/nlohmann/json.hpp>
 #include <thread>
 #include <math.h>
-//
-//#include <spdlog/spdlog.h>
-//#include <spdlog/cfg/env.h> 
-//#include <spdlog/fmt/ostr.h>
-//#include <spdlog/fmt/fmt.h>
-//#include <fmt/ostream.h>
-//#include <spdlog/common.h>
-//#include <spdlog/details/registry.h>
-//#include <spdlog/logger.h>
-//#include <spdlog/version.h>
-//#include <spdlog/details/synchronous_factory.h>
-//
-//#include <chrono>
-///#include <functional>
-//#include <memory>
-//#include <string>
-
 
 bool InZone(float x1, float y1, float x2, float y2, float r){if((x1!=x2)||(y1!=y2)){
 if (pow((pow((x1-x2),2) +pow((y1-y2),2)),(0.5)) <r)
@@ -138,8 +121,7 @@ std::thread triger([&]()
 	Test_Json = Abon;
 	x1,x2,y1,y2,r = 0;
 	if(Flag_Trigger){
-	//std::cout<<Doc[0]["abonents"].size();
-	//std::cout<<Doc[0]["zone"].size();
+
 	
 	//abonents triggers
 	
@@ -191,7 +173,7 @@ std::thread triger([&]()
 		message1 +=" OUT";
 		if(message != message1){
 		message = message1;
-		std::cout<<message1<<std::endl;
+
 		}
 		}
 	}
